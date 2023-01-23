@@ -1,5 +1,6 @@
 import React from "react";
 import { auth, provider } from "../Firebase-Config";
+import { signInWithPopup } from "firebase/auth"
 
 const Login = ({ setIsAuth }) => {
 
@@ -13,7 +14,7 @@ const Login = ({ setIsAuth }) => {
     return (
         <div className="loginPage">
             <p>Sign In With Google to Continue</p>
-            <button className="login-with-google-btn">Sign in with Google</button>
+            <button className="login-with-google-btn" onClick={signInWithGoogle}>Sign in with Google</button>
         </div>
     );
 }
