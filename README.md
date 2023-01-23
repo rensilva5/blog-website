@@ -2,6 +2,8 @@
 
 This App will be a blog where users can add a blog with a title, blog text, and a user name; it will have auth credentials, loggin with google account as well as button to delete a blog if they wich. We will use hooks as well as components. Props will be also used. We will use Firebase app and host to deploy the app.
 
+So they app will have a login page, home, and a Create Post page.
+
 ## Create project
 
 Create project using you terminal

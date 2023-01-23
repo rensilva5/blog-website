@@ -1,8 +1,19 @@
 import React from "react";
-const Login = () => {
+import { auth, provider } from "../Firebase-Config";
+
+const Login = ({ setIsAuth }) => {
+
+    const signInWithGoogle = () => {
+        signInWithPopup(auth, provider).then((result) => {
+            localStorage.setItem('isAuth', true)
+            setIsAuth(true)
+        })
+    }
+
     return (
-        <div>
-        <h1>Login</h1>
+        <div className="loginPage">
+            <p>Sign In With Google to Continue</p>
+            <button className="login-with-google-btn">Sign in with Google</button>
         </div>
     );
 }
