@@ -46,7 +46,26 @@ In the project directory, you can run:
 ### `npm start` to run the app
 
 ## Login
-Create funtionality, and stablish a function so that the login link does not appear in is loggin. 
+Create funtionality, and stablish a function so that the login link does not appear in is loggin.
+
+# Logout
+Create functionality so that the user can have the logout link if the are login.
+
+## CSS
+css is implemented to the login page and stylish.
+
+## CreatePost
+CreatePost page is create in a way that the users can add content if they are login. To do that, useState and useEffect are used. We create fucntion link to the click buttons. Props are also utilized is this process.
+
+We create a collection in Firebase and modify rules to unable user to add content.
+
+Then we create our first post and submit it.
+
+## Home Page
+We need to access the post that sit in our database.
+The useState is used, so we import it and initilize it with an empty array.
+
+To populate it we need to use (useEffect) and get the data we need
+
 
 ## Available Scripts
-
