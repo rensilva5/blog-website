@@ -46,7 +46,7 @@ In the project directory, you can run:
 ### `npm start` to run the app
 
 ## Login
-Create funtionality
+Create funtionality, and stablish a function so that the login link does not appear in is loggin. 
 
 ## Available Scripts
 
