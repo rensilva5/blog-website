@@ -65,7 +65,11 @@ Then we create our first post and submit it.
 We need to access the post that sit in our database.
 The useState is used, so we import it and initilize it with an empty array.
 
-To populate it we need to use (useEffect) and get the data we need
+To populate the homePage we need to use (useEffect) and get the data we need and display.
 
+CSS is added at this stage.
+
+## Delete Post button
+Add a function to delete post when the users want, using async
 
 ## Available Scripts
