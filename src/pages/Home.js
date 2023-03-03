@@ -13,7 +13,7 @@ const Home = ({ isAuth }) => {
     };
 
     getPosts();
-  }, []);
+  }, [deletePost]);
 
   const deletePost = async (id) => {
     const postDoc = doc(db, 'posts', id)
@@ -30,7 +30,7 @@ const Home = ({ isAuth }) => {
                 </div>
                 <div className="deletePost">
                     {isAuth && post.author.id === auth.currentUser.uid &&
-                    <button onClick={() => {deletePost(post.id)}}>&#128465;</button>}
+                    (<button onClick={() => {deletePost(post.id)}}>&#128465;</button>)}
                 </div>
             </div>
             <div className="postTextContainer">{post.postText}</div>
