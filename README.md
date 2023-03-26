@@ -37,6 +37,7 @@ Create conections to implement them in the project.
 ## Routers
 In order to create routes whithin pages we need to install react-router-dom and import it, and after that we need to set up our routes.
 -Home, Login, CreatePost
+copy this: npm install react-router-dom
 
 ## Links
 Create links to be able to navigate through pages
